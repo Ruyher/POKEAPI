@@ -1,13 +1,108 @@
-body {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0%;
-    text-align: center;
-  }
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  height: 100vh;
+  background-image: url(src/imagen3.jpg);
+}
+
+.container {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  text-align: center;
+  color: #bb1212;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #b81515;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #ec5e0b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e67e08;
+}
+
+#ConteinerCard {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.card {
+  width: calc(100%);
+  max-width: 300px;
+  margin: 20px auto; 
+  background-color: #ffffff;
+  border: 5px solid #991a1a;
+  border-radius: 120px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ee1818;
+}
+
+.card-body {
+  text-align: center;
+}
