@@ -44,7 +44,7 @@ function solicitudAJAX() {
             nombre +
             `</h5>
       <p class="card-text"></p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="https://www.pokemon.com/el/pokedex/${nombre}" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>`;
           div.innerHTML =html;
@@ -84,7 +84,7 @@ function solicitudAJAX() {
               nombre +
               `</h5>
       <p class="card-text"></p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="https://www.pokemon.com/el/pokedex/${nombre}" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>`;
             tarjetas.innerHTML = html;
